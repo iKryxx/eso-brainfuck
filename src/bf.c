@@ -15,6 +15,8 @@
 
 int bf_debug = 0;
 
+int bf_inline = 0;
+
 char* read_file(const char *path) {
     FILE *file = fopen(path, "r");
     if (!file) {

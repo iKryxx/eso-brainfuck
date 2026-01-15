@@ -44,6 +44,8 @@ typedef struct {
 
 extern int bf_debug;
 
+extern int bf_inline;
+
 extern char* read_file(const char* path);
 
 extern bf_program_t parse_program(const char* code);
